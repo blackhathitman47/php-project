@@ -424,5 +424,38 @@ label{
 	display: inline-block;
 	max-width: 100%;
 	margin-bottom: 5px;
-	font-weight: normal
+	font-weight: normal;
+	font-family: 'Quicksand',sans-serif;
+}
+input[type="submit"]{
+	font-family: 'Quicksand',sans-serif;
+}
+.par-de {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+hr {
+    background-image: -webkit-linear-gradient(left, transparent, #DBDBDB, transparent);
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    border: 0;
+    height: 1px;
+    margin: 22px 0;
+}
+h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: normal;
+	line-height: 27px;
+	color: #357fb0;
+    margin: 0 0 14px 0;
+}
+.list.list-icons {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.mt-xlg {
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
