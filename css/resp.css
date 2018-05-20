@@ -1,0 +1,16 @@
+@media screen 
+  and (max-width: 1061px)  {
+    #div-info{
+        display: none;
+    }
+    .scroll-fix{
+        position: relative;
+    }
+    .imagee{
+        float: none;
+        width: 100%;
+    }
+    .about-us p{
+        margin: 0;
+    }
+}
