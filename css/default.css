@@ -432,7 +432,8 @@ input[type="submit"]{
 }
 .par-de {
     color: #777;
-    line-height: 24px;
+	line-height: 24px;
+	font-family: 'Quicksand',sans-serif;
     margin: 0 0 20px;
 }
 hr {
@@ -448,6 +449,7 @@ h4 {
     letter-spacing: normal;
 	line-height: 27px;
 	color: #357fb0;
+	font-family: 'Quicksand',sans-serif;
     margin: 0 0 14px 0;
 }
 .list.list-icons {
@@ -458,4 +460,12 @@ h4 {
 .mt-xlg {
 	margin-top: 30px;
 	margin-bottom: 10px;
+}
+.list.list-icons.list-icons-style-3 li {
+    padding-top: 5px;
+    padding-left: 36px;
+}
+.list li {
+	margin-bottom: 13px;
+	font-family: 'Quicksand',sans-serif;
 }
