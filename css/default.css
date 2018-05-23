@@ -261,7 +261,7 @@ a{
 	border-radius: 3px;
 	box-sizing: border-box;
 	background-color:  #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	
 	border: none;
 	resize: none;
 
@@ -471,4 +471,12 @@ h4 {
 }
 .m-t{
 	margin-top: 90px;
+}
+.alr{
+	box-shadow: 0px 0px 10px #f009;
+	transition: 0.3s;
+}
+.goo{
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	transition: 0.3s;
 }

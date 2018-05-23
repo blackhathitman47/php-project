@@ -27,10 +27,10 @@
 
 				<p>Contact Us</p>
 
-				<form action="#" method="post">
+				<form action="Contact.php" method="post">
 
-					<input type="text" name="email" placeholder="Email" />
-					<textarea name="message" placeholder="Message"></textarea>
+					<input id="email" type="text" name="email" placeholder="Email" onblur="emailv()"/>
+					<textarea name="message" placeholder="Message" type="text" id="message" ></textarea>
 					<button>Send</button>
 
 				</form>
