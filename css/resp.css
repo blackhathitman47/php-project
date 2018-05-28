@@ -13,4 +13,47 @@
     .about-us p{
         margin: 0;
     }
+    .kode-caption h2 {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1;
+    }
+    .kode-caption h5 {
+        font-size: 17px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 0px 15px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        display: inline-block;
+    }
+    .owl-dots{
+        display: none;
+    }
+    .slid {
+        height: 100%;
+    }
 }
+@media screen 
+  and (max-width: 1025px) and (min-width: 1023px){
+    .kode-caption h2 {
+        font-size: 65px;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1;
+    }
+    .kode-caption h5 {
+        font-size: 28px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 0px 15px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        display: inline-block;
+    }
+  }
