@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+<?php
+extract($_POST);
+?>
 <head>
+<?php include'php/link.php'; ?>
 	<meta charset="UTF-8" />
 		<title>Contact Us</title>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDy1paoiUBEn85vEMVLWQSFTdVi3oDEQ4k &callback=initMap">
+		<script src="js/map.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy1paoiUBEn85vEMVLWQSFTdVi3oDEQ4k&callback=initMap">
     </script>
-	<script src="js/map.js"></script>
-	<?php include'php/link.php'; ?>
+	
+	
 	</head>
 <body>
 	<header class="site-header-wrap">
@@ -29,11 +34,11 @@
 									<div class="form-group">
 										<div class="col-md-6">
 											<label>Nom et Prénom</label>
-											<input value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required="" type="text">
+											<input value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required="" type="text" onblur="namev()">
 										</div>
 										<div class="col-md-6">
 												<label>Email</label>
-												<input value="" data-msg-required="Please enter your Email." maxlength="100" class="form-control" name="email" id="email" required="" type="email">
+												<input  onblur="emailv()" data-msg-required="Please enter your Email." maxlength="100" class="form-control" name="email" id="email" required="" type="email" value="<?php  if (isset($_POST['femail'])){echo $_POST['femail'];}else{echo "";}?>" onblur="emailcv()">
 										</div>
 									</div>
 								</div>
@@ -53,7 +58,7 @@
 										<div class="form-group">
 											<div class="col-md-12">
 												<label>Message</label>
-												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required=""></textarea>
+												<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required=""><?php if (isset($_POST['fmessage'])){echo $_POST['fmessage'];}else{echo "";}?></textarea>
 											</div>
 										</div>
 								</div>

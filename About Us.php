@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>Contact Us</title>
+	<title>About Us</title>
 	<?php include'php/link.php'; ?>
     </script>
 	<script src="js/map.js"></script>

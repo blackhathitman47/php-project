@@ -480,3 +480,41 @@ h4 {
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 	transition: 0.3s;
 }
+.shop {
+    margin-top: -10px;
+}
+hr.tall {
+    margin: 44px 0;
+}
+hr {
+    background-image: -webkit-linear-gradient(left, transparent, #DBDBDB, transparent);
+    background-image: linear-gradient(to right, transparent, #DBDBDB, transparent);
+    border: 0;
+    height: 1px;
+    margin: 22px 0;
+}
+.mb-none {
+    margin-bottom: 0 !important;
+}
+h1 {
+    font-size: 2.6em;
+    line-height: 44px;
+    margin: 0 0 32px 0;
+	margin-bottom: 32px;
+	font-family: 'Quicksand',sans-serif;
+	color: #075788;
+	font-weight: 200;
+}
+p.taller {
+    margin-bottom: 40px;
+}
+.p {
+    line-height: 24px;
+    margin: 0 0 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.fa:first-child{
+    color: #075788;
+    border-color: #075788;
+}
