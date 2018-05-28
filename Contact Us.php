@@ -2,6 +2,26 @@
 <html>
 <?php
 extract($_POST);
+require 'phpmailer/PHPMailerAutoload.php';
+
+$mail = new PHPMailer();
+
+
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPSecure = "ssl";
+$mail->Port = 465;
+$mail->SMTPAuth = true;
+$mail->Username = 'blackhatm4@gmail.com';
+$mail->Password = '12365478963.0';
+
+$mail->setFrom('senaidbacinovic@gmail.com', 'Senaid Bacinovic');
+$mail->addAddress('noureddine0elmouden@gmail.com');
+$mail->Subject = 'SMTP email test';
+$mail->Body = 'this is some body';
+
+if ($mail->send())
+echo "<script>alert(\"la variable est nulle\")</script>"; 
+
 ?>
 <head>
 <?php include'php/link.php'; ?>
